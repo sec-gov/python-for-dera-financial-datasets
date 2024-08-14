@@ -26,8 +26,12 @@ The free edition of the Anaconda distribution of Python available from https://w
 - Jupyter notebook
 - pandas
 - numpy
-- pyplot
+- matplotlib
 - seaborn
+- IPython
+- io
+- requests
+- zipfile
 
 ### Examples
 
@@ -53,16 +57,26 @@ OR
 
 ### Usage
 
-1. Clone this repository:
+1. Clone this repository:\
+`git clone https://github.com/sec-gov/python-for-dera-financial-datasets`
+  
+2. Data for examples can be downloaded by running the Populate_Data.py script.\
+`cd python-for-dera-financial-datasets`\
+`python Populate_Data.py`  
+  
+   Alternatively, data can be downloaded manually from the DERA Data Library.\
+   `cd python-for-dera-financial-datasets\examples`\
+   Create a new subfolder named data\
+   Download the zip files for data sets in data folder from the following URLs and unzip them.
 
-`  git clone https://github.com/sec-gov/python-for-dera-financial-datasets`
+- https://www.sec.gov/files/dera/data/financial-statement-data-sets/2022q1.zip
+- https://www.sec.gov/files/dera/data/financial-statement-data-sets/2022q2.zip
+- https://www.sec.gov/files/dera/data/financial-statement-data-sets/2022q3.zip
+- https://www.sec.gov/files/dera/data/financial-statement-data-sets/2022q4.zip
+- https://www.sec.gov/files/dera/data/financial-statement-notes-data-sets/2024_02_notes.zip
 
-2. cd to the python-for-dera-financial-datasets/examples folder. 
->Juptyer notebooks are in the examples folder. These notebooks have been saved with output so that you know what to expect after running the code. Data for these examples is copied for you in the data subfolder.
-
-3. To run the examples, open Jupyter notebook from command prompt or shell:
-
-`  jupyter notebook`
+3. Juptyer notebooks are in the examples folder. These notebooks have been saved with output so that you know what to expect after running the code. To run the examples, open Jupyter notebook from command prompt or shell:\
+`jupyter notebook`
 
 4. From the examples webpage in Jupyter, you can select a specific example of interest to run.
 

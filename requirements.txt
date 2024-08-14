@@ -4,3 +4,6 @@ numpy
 matplotlib
 seaborn
 IPython
+io
+requests
+zipfile
